@@ -4,7 +4,8 @@ import React from 'react'
 export default class CoordinatesButton extends React.Component {
 
 handleClick = (event) => {
-
+let array = [event.clientY, event.clientX]
+onReceiveCoordinates(array)
 }
 
 render() {
