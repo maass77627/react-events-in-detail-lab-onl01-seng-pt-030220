@@ -5,7 +5,7 @@ export default class CoordinatesButton extends React.Component {
 
 handleClick = (event) => {
 let array = [event.clientY, event.clientX]
-onReceiveCoordinates(array)
+this.props.onReceiveCoordinates(array)
 }
 
 render() {
