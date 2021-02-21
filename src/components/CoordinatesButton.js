@@ -3,10 +3,16 @@ import React from 'react'
 
 export default class CoordinatesButton extends React.Component {
 
+handleClick = (event) => {
+  
+}
+
 render() {
 
   return(
-<div></div>
+<div>
+<button onClick={this.handleClick}></button>
+</div>
   )
 }
 
